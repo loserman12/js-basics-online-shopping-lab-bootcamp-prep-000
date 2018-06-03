@@ -46,7 +46,8 @@ function viewCart() {
     // var lastItem will  *.pop* remove the last element in the the cartier array and return the element taken.
     return `In your cart, you have ${cartier.join(', ')}, and ${lastItem}.`
      //  returning "In your car, you have (cartier.join returns our array to a string with a separator in the  parentheses example  cartier.join(separator)* and (the var lastItem removes the last element in the cartier array and returns it. 
-     // example 
+     // example  var num = [1,2,3] 
+     // number.pop is 3
       
   }
   }
