@@ -45,8 +45,7 @@ function viewCart() {
     let lastItem = cartier.pop();
     // var lastItem will  *.pop* remove the last element in the the cartier array and return the element taken.
     return `In your cart, you have ${cartier.join(', ')}, and ${lastItem}.`
-    
-  // 
+     // 
   }
   }
  
