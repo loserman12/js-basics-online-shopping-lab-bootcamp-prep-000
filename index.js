@@ -69,6 +69,7 @@ function total() {
 function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     if (item === cart[i].itemName) {
+     
       cart.splice(i, 1)
       return cart
     }
@@ -87,6 +88,8 @@ function placeOrder(cardNumber) {
     // var totalCost = total function 
     cart = []; 
    // code above clears the cart array
+    
     return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`
+    //  returns string Your total cost is (var totalCost *which is a function that adds cost of items in cart*), which will be charged to the card (var cardNumber * cardNumber is our parameter the variable we are passing arguemnt through*  .  )
   }
 }
