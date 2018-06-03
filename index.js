@@ -45,7 +45,9 @@ function viewCart() {
     let lastItem = cartier.pop();
     // var lastItem will  *.pop* remove the last element in the the cartier array and return the element taken.
     return `In your cart, you have ${cartier.join(', ')}, and ${lastItem}.`
-     //  returning In your car, you have *cartier.join returns our array to a string with a separator in the     
+     //  returning "In your car, you have (cartier.join returns our array to a string with a separator in the  parentheses example  cartier.join(separator)* and (the var lastItem removes the last element in the cartier array and returns it. 
+     // example 
+      
   }
   }
  
@@ -89,6 +91,7 @@ function placeOrder(cardNumber) {
    // code above clears the cart array
     
     return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`
-    //  returns string Your total cost is (var totalCost *which is a function that adds cost of items in cart*), which will be charged to the card (var cardNumber * cardNumber is our parameter the variable we are passing arguemnt through*  .  )
+    //  returns string "Your total cost is (var totalCost *which is a function that adds cost of items in cart), which will be charged to the card 
+    //(var cardNumber * cardNumber is our parameter the variable we are passing arguemnt through*  .  )
   }
 }
